@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+h1{ font-size: 40px;}
+
+header{
+    padding: 7%;
+    background-image: url("images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    width: 60%;
+    color: white;
+    margin:50px auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.header-content h1{
+    font-size: 50px;
+}
+
+.anchor-btn{
+    background-color: rgb(210, 43, 43);
+    color: #efefef;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+section{
+    padding: 5%;
+}
+
+.donate-area{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.amount-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.amount:hover{
+    border: 3px solid rgb(237, 78, 20);
+    background-color:rgb(244, 204, 204) ;
+    transition: .5s;
+    
+}
+
+.amount span{
+    font-weight: bold;
+}
+
+.donate-area input{
+    width: 80%;
+    padding: 7px;
+    margin: 10px;
+    outline: 0;
+    border-width: 0PX 0PX 2PX;
+    border-color: rgb(121, 108, 108);
+    text-align: center;
+    font-weight: bold;
+}
+
+.dnt-plan-area{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.dnt-plan-area .dnt-plan-box{
+    display: flex;
+}
+
+.dnt-plan-item{
+    background-color: antiquewhite;
+    padding: 20px 5px;
+    margin: 10px;
+
+}
+
+.dnt-2{
+    background-color: rgb(180, 219, 206);
+}
+
+.dnt-3{
+    background-color: rgb(201, 203, 152);
+}
+
+.plan2-area{
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .half-width{
+    width: 40%;
+    margin-left: 25px;
+    text-align: ;
+}
+
+.plan2-item{
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 10px;
+    border-left: 5px solid rgb(16, 69, 91);
+}
+
+.plan2-item img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.contribute-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.contribute-area div{
+    margin: 30px;
+    
+}
+
+.half-width img{
+    width: 100%;
+    
+
+
+    
+}
+
+.subscrib-area{
+    text-align: center;
+}
+
+.form-box{
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-box input{
+    padding: 20px;
+    background-color: rgb(221, 208, 208);
+    clear: right;
+    border: none;
+}
+
+.form-box button{
+clear: both;
+background-color: tomato;
+color: white;
+padding: 20px;
+border: none;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    color: #c2a7a7;
+    background-color:rgb(16, 69, 91) ;
+}
+
